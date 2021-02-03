@@ -4,7 +4,7 @@
 
 body
     {
-        background-color: black; /* Le fond de la page sera noir */
+    	background-color: black; /* Le fond de la page sera noir */
         color: white; /* Le texte de la page sera blanc */
     }
 table {
@@ -20,16 +20,13 @@ table {
 	max-width: 100%;
 	text-align: center;
 }
-
 #slider input[type=radio] {
 	display: none;
 }
-
 #slider label {
 	cursor: pointer;
 	text-decoration: none;
 }
-
 #slides {
 	border-radius: 5px;
 	box-shadow: 1px 1px 4px #666;
@@ -93,7 +90,6 @@ table {
 #controls label:hover {
 	opacity: 1;
 }
-
 #slide1:checked ~ #controls label:nth-child(2), 
 #slide2:checked ~ #controls label:nth-child(3), 
 #slide3:checked ~ #controls label:nth-child(4), 
@@ -104,7 +100,6 @@ table {
 	margin: 0 -50px 0 0;
 	display: block;
 }
-
 #slide1:checked ~ #controls label:nth-child(5), 
 #slide2:checked ~ #controls label:nth-child(1), 
 #slide3:checked ~ #controls label:nth-child(2), 
@@ -115,12 +110,10 @@ table {
 	margin: 0 0 0 -50px;
 	display: block;
 }
-
 #bullets {
 	margin: 10px 0 0;
 	text-align: center;
 }
-
 #bullets label {
 	border-radius: 5px;
 	display: inline-block;
@@ -128,7 +121,6 @@ table {
 	height: 10px;
 	background: #bbb;
 }
-
 #slide1:checked ~ #bullets label:nth-child(1), 
 #slide2:checked ~ #bullets label:nth-child(2), 
 #slide3:checked ~ #bullets label:nth-child(3), 
@@ -144,15 +136,14 @@ table {
 	#slide4:checked ~ #controls label:nth-child(3), 
 	#slide5:checked ~ #controls label:nth-child(4) {
 		margin: 0;
-	}
-
+}
 	#slide1:checked ~ #controls label:nth-child(2), 
 	#slide2:checked ~ #controls label:nth-child(3), 
 	#slide3:checked ~ #controls label:nth-child(4), 
 	#slide4:checked ~ #controls label:nth-child(5), 
 	#slide5:checked ~ #controls label:nth-child(1) {
 		margin: 0;
-	}
+}
 }
 /* end of responsive behaviour of controls */
 							

@@ -3,6 +3,8 @@
         "titre": "Festivale Nation Sounds"
     },
     "Alerte" : {
-        "titreSlide1": "Alerte Covid"
+        "titreSlide1": "Alerte Covid",
+        "titreSlide2": "",
+        "texteSlide1" :"0 cas détecté depuis le début du Festival"
     }
 }
