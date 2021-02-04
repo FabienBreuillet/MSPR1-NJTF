@@ -1,3 +1,6 @@
-module.exports={outputDir:"docs",
-publicPath:"/MSPR1/"
-}
+module.exports = {
+    publicPath:"/MSPR1/",
+    devServer: {
+      proxy: 'http://localhost'
+    },
+  }

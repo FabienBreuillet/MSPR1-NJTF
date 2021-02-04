@@ -1,10 +1,90 @@
 {
     "home" : {
-        "titre": "Festivale Nation Sounds"
+        "titre": "Festival Nation Sounds"
     },
     "alerte" : {
         "titreSlide1": "Alerte Covid",
-        "titreSlide2": "",
-        "texteSlide1" :"0 cas détecté depuis le début du Festival"
-    }
+        "texteSlide1" :"Personne d'infecté",
+        "button" : "En savoir plus",
+
+        "titreSlide2": "La tente Covid est ouverte aux tests de 10h à 17h tous les jours",
+        "texteSlide2" : "Tests PCR",
+        
+
+        "titreSlide3" : "Vacin",
+        "texteSlide3" : "Un réunion d'information aura lieue Samedi sous le chapiteau.",
+        
+
+        "titreSlide4" : "Poste de secours",
+        "texteSlide4" : "Nos secouristes sont présents à l'entrée du parc.",
+        
+
+        "titreSlide5" : "Alerte Covid19",
+        "texteSlide5" : "0 cas detecté depuis le début du festival"
+    },
+    "presentation" : {
+        "titre" :"Nation Sounds le concert caritatif"
+    },
+    "menu" : {
+        "accueil" :"Accueil",
+        "carte" : "Carte",
+        "partenaires" : "Partenaires",
+        "programme" :"Programme",
+        "actu" :"Actu"
+            },        
+    "footer" : {
+        "infoUtile" :"Informations utiles",
+        "adresse" : "Adresse",
+        "tel" : "Numéro téléphone"
+        },
+    "ConcertActuel" : {
+        "titre" :"Les concerts actuels",
+        "date1": "Aujourd'hui",
+        "heure1" : "17h00",
+        "numeroScene1" : "Scène n°1",
+        "date2": "Aujourd'hui",
+        "heure2" : "18h00",
+        "numeroScene2" : "Scène n°3"
+    },
+    "ConcertProchain" : {
+        "titre" :"Les prochains concerts",
+        "date1": "Aujourd'hui",
+        "heure1" : "19h00",
+        "numeroScene1" : "Scène n°2",
+        "date2": "Aujourd'hui",
+        "heure2" : "20h00",
+        "numeroScene2" : "Scène n°4"
+    },
+ "faq" : {
+     "hideText" : "Quels sont les horaires du site concert ?",
+        "collapseBlock0" : "17:00",
+
+        "hideText1" : "Est-il possible d’entrer et sortir du festival pendant la soirée ?",
+        "collapseBlock" : "Oui grâce à votre bracelet remis à l’entrée du site. ",
+
+        "hideText2" : "Peut-on se restaurer sur le site du festival ?",
+        "collapseBlock2" : "Des stands de restaurations divers et variés sont disponibles sur différents lieux du festival. Vous pouvez vous orienter grâce à notre carte intéractive.",
+
+        "hideText3" : "Peut-on apporter son propre pique-nique ? et ses boissons ? ",
+        "collapseBlock3" : "Il est possible d’apporter son pique-nique sur la zone camping. Les bouteilles sont tolérées sur le camping mais pas dans l’enceinte des concerts. Les bouteilles et tout contenant en verre sont interdits",
+
+        "hideText4" : "Quels types de paiement sont à disposition sur le festival ? Puis-je retirer de l’argent ?",
+        "collapseBlock4" : "Les achats se font en cashless avec la Phénix Card. Des stands de rechargement cashless sont disponibles sur le festival. Moyens de paiement acceptés: carte bleue et espèces. Pour retirer, direction les guichets des banques (Le Crédit Mutuel Ocean, La Poste, Crédit Agricole, Caisse d’Epargne) en centre-ville de Montendre à 10 minutes à pied",
+
+        "hideText5" : "Y a-t-il une infirmerie ou un centre de secours ?",
+        "collapseBlock5" : "Il y a un poste de secours sur le camping du festival et à l’intérieur de l’enceinte des concerts ainsi que des médecins et infirmiers.            ",
+
+        "hideText6" : "Quels sont les objets interdits sur le festival ?",
+        "collapseBlock6" : "Sont interdits dans l’enceinte des concerts : armes blanches, bouteilles, substances illicites.",
+           
+        "hideText7" : "Finalement je ne pourrais pas venir au festival, puis-je me faire rembourser ?",
+        "collapseBlock7" : "Non. Il faut dans ce cas-là essayer de revendre son billet à un ami ou sur des sites prévus à cet effet comme zepass.com.",
+
+        "hideText8" : "Puis-je acheter mon pass directement le jour du festival ?",
+        "collapseBlock8" : "Il y aura des places à vendre sur place les 3 jours de festival si les concerts ne sont pas complets.",
+
+        "hideText9" : " Existe-t-il des tarifs réduits ?",
+        "collapseBlock9" : "Sur les réseaux France Billets et Ticketnet sous conditions (adhérents, étudiants…) en quantité limitée."
+        
+        }
 }

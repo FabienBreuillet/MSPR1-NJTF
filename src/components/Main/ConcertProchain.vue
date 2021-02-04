@@ -1,6 +1,6 @@
 <template>
 <div>
-    <h4> -- Les Prochains Concerts -- </h4>
+    <h4> {{ $t('ConcertProchain.titre') }}</h4>
     <table>
         <tr>
             <td>
@@ -8,7 +8,7 @@
             </td>
             <td>
                 <h3 class="card3-title">Car Palace</h3>
-                <p class="card-text">Aujourd'hui<br> 19h00 <br> Scène N°2 <br></p>
+                <p class="card-text">{{ $t('ConcertProchain.date1') }}<br> {{ $t('ConcertProchain.heure1') }} <br>{{ $t('ConcertProchain.numeroScene1') }} <br></p>
             </td>
         </tr>
         <tr>
@@ -17,7 +17,7 @@
             </td>
             <td>
                 <h3 class="card4-title">VioletP</h3>
-                <p class="card2-text">Aujourd'hui <br> 20h00 <br> Scène N°4 <br></p>
+                <p class="card2-text">{{ $t('ConcertProchain.date2') }} <br> {{ $t('ConcertProchain.heure2') }} <br> {{ $t('ConcertProchain.numeroScene1') }} <br></p>
             </td>
         </tr>
     </table>

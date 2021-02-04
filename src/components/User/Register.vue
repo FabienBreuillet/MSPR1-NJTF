@@ -5,7 +5,7 @@
         <!-- Button to open the modal -->
         <button onclick="document.getElementById('id02').style.display='block'"><img src="https://zupimages.net/up/21/03/p9di.png" alt="" /></button>
 
-        <button1 onclick="document.getElementById('id01').style.display='block'"><img src="https://zupimages.net/up/21/03/c3pp.png" alt="" /></button1>
+        <button onclick="document.getElementById('id01').style.display='block'"><img src="https://zupimages.net/up/21/03/c3pp.png" alt="" /></button>
 
         <!-- The Modal (contains the Sign Up form) -->
         <div id="id01" class="modal">

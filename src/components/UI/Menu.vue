@@ -10,7 +10,7 @@
                             <img src="https://zupimages.net/up/21/03/s1by.png">
                         </td>
                         <td>
-                            <router-link to="/">Accueil </router-link>
+                            <router-link to="/">{{ $t('menu.accueil') }} </router-link>
                         </td>
                     </tr>
                     <tr>
@@ -18,7 +18,7 @@
                             <img src="https://zupimages.net/up/21/03/mfrm.png">
                         </td>
                         <td>
-                            <router-link to="/Programme">Programme</router-link>
+                            <router-link to="/Programme">{{ $t('menu.programme') }}</router-link>
                         </td>
                     </tr>
                     <tr>
@@ -26,7 +26,7 @@
                             <img src="https://zupimages.net/up/21/03/4lug.png">
                         </td>
                         <td>
-                            <router-link to="/Actus">Actus</router-link>
+                            <router-link to="/Actus">{{ $t('menu.actu') }}</router-link>
                         </td>
                     </tr>
                     <tr>
@@ -34,7 +34,7 @@
                             <img src="https://zupimages.net/up/21/03/5dqr.png">
                         </td>
                         <td>
-                            <router-link to="/Carte">Carte</router-link>
+                            <router-link to="/Carte">{{ $t('menu.carte') }}</router-link>
                         </td>
                     </tr>
                     <tr>
@@ -42,7 +42,7 @@
                             <img src="https://zupimages.net/up/21/03/bwt6.png">
                         </td>
                         <td>
-                            <router-link to="/Nospartenaires">Partenaires</router-link>
+                            <router-link to="/Nospartenaires">{{ $t('menu.partenaires') }}</router-link>
                         </td>
                     </tr>
                     <tr>

@@ -1,11 +1,94 @@
 {
     "home" : {
-        "titre": "Festival Nation Sounds"
-    },
+            "titre": "Festival Nation Sounds",
+            "button" : "All actus"
+        },
+    
     "alerte" : {
-        "titreSlide1": "Covid Alert",
-        "titreSlide2": "",
-        "texteSlide1" :"Nobody infected found"
+            "titreSlide1": "Covid Alert",
+            "texteSlide1" :"Nobody infected found",
+            "button" : "See more",
+    
+            "titreSlide2" : "PCR Tests",
+            "texteSlide2" : "The Covid tent is open for testing from 10am to 5pm every day.",
+            
+    
+            "titreSlide3" : "PCR Tests",
+            "texteSlide3" : "The Covid tent is open for testing from 10am to 5pm every day.",
+            
+    
+            "titreSlide4" : "Help station",
+            "texteSlide4" : "Our rescuers are present at the entrance of the park",
+            
+    
+            "titreSlide5" : "Covid-19 Alert",
+            "texteSlide5" : "0 cases detected since the beginning of the Festival" 
+        },
+    "presentation" : {
+        "titre" :"Nation Sounds the charity concert"
+    },
+    "menu" : {
+        "accueil" :"Home",
+        "carte" : "Card",
+        "partenaires" : "Parteners",
+        "programme" :"Programm",
+        "actu" :"News"
+            },        
+    "footer" : {
+        "infoUtile" :"Usefull information",
+        "adresse" : "Adress",
+        "tel" : "Phone number"
+        },
+    "ConcertActuel":{
+        "titre" :"Current concerts",
+        "date1": "Today",
+        "heure1" : "5.00pm",
+        "numeroScene1" : "Scene n°1",
+        "date2": "Today",
+        "heure2" : "6.00pm",
+        "numeroScene2" : "Scene n°3"
+    },
+    "ConcertProchain":{
+        "titre" :"Next concerts",
+        "date1": "Today",
+        "heure1" : "7.00pm",
+        "numeroScene1" : "Scene n°1",
+        "date2": "Today",
+        "heure2" : "8.00pm",
+        "numeroScene2" : "Scene n°3"
+    },
+    "faq" : {
+            "hideText" : "What are the schedules of the concert site? ",
+            "collapseBlock0" : "05:00 pm",
+    
+           "hideText1" : "Is it possible to enter and leave the festival during the evening?",
+           "collapseBlock" : "Yes thanks to your bracelet given at the entrance of the site.",
+    
+           "hideText2" : "Is it possible to eat at the festival site ?",
+           "collapseBlock2" : "Various and varied restoration stands are available at different locations of the festival. You can orient yourself thanks to our interactive map",
+           
+           "hideText3" : "Can we bring our own picnic? and drinks? ",
+           "collapseBlock3" : "It is possible to bring your picnic on the camping area. Bottles are tolerated on the campsite but not in the concert grounds. Bottles and all glass containers are forbidden.",
+    
+           "hideText4" : "What types of payment are available at the festival? Can I withdraw money?",
+           "collapseBlock4" : "Purchases are made in cashless with the Phoenix Card. Cashless recharging stands are available at the festival. Accepted means of payment: credit card and cash. To withdraw, go to the bank counters (Le Crédit Mutuel Ocean, La Poste, Crédit Agricole, Caisse d'Epargne) in Montendre town centre, 10 minutes' walk away.",
+    
+           "hideText5" : "Is there an infirmary or an emergency centre?",
+           "collapseBlock5" : "There is a first-aid post on the festival campsite and inside the concert grounds, as well as doctors and nurses.",
+    
+           "hideText6" : "What are the prohibited items on the festival?",
+           "collapseBlock6" : "The following are forbidden in the concert venue: edged weapons, bottles, illegal substances.",
+          
+           "hideText7" : "Finally I won't be able to come to the festival, can I get a refund?",
+           "collapseBlock7" : "No. In this case, you should try to resell your ticket to a friend or on dedicated sites such as zepass.com.",
+    
+           "hideText8" : "Can I buy my pass directly on the day of the festival?",
+           "collapseBlock8" : "There will be tickets for sale on site during the 3 days of the festival if the concerts are not sold out.",
+    
+           "hideText9" : " Are there any reduced rates?",
+           "collapseBlock9" : "On the France Billets and Ticketnet networks subject to conditions (members, students, etc.) in limited quantities."
+        }
+        
     }
-}
-
+    
+    

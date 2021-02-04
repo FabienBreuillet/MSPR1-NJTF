@@ -13,35 +13,35 @@
                     <div class="slide-content">
                         <h5> {{ $t('alerte.titreSlide1') }} </h5>
                         <p>{{ $t('alerte.texteSlide1') }}</p>
-                        <router-link to="/Actualites" type="button" class="btn btn-secondary btn-sm">En savoir plus</router-link>
+                        <router-link to="/Actualites" type="button" class="btn btn-secondary btn-sm">{{ $t('alerte.button') }}</router-link>
                     </div>
                 </div>
                 <div class="slide slide_2">
                     <div class="slide-content">
-                        <h5>Tests PCR</h5>
-                        <p>La tente Covid est ouverte aux tests de 10h à 17h tous les jours</p>
-                        <router-link to="/Actualites" type="button" class="btn btn-secondary btn-sm">En savoir plus</router-link>
+                        <h5>{{ $t('alerte.titreSlide2') }}</h5>
+                        <p>{{ $t('alerte.texteSlide2') }}</p>
+                        <router-link to="/Actualites" type="button" class="btn btn-secondary btn-sm">{{ $t('alerte.button') }}</router-link>
                     </div>
                 </div>
                 <div class="slide slide_3">
                     <div class="slide-content">
-                        <h5>Vaccins</h5>
-                        <p>Un réunion d'information aura lieue Samedi sous le chapiteau</p>
-                        <router-link to="/Actualites" type="button" class="btn btn-secondary btn-sm">En savoir plus</router-link>
+                        <h5>{{ $t('alerte.titreSlide3') }}</h5>
+                        <p>{{ $t('alerte.texteSlide3') }}</p>
+                        <router-link to="/Actualites" type="button" class="btn btn-secondary btn-sm">{{ $t('alerte.button') }}</router-link>
                     </div>
                 </div>
                 <div class="slide slide_4">
                     <div class="slide-content">
-                        <h5>Poste de secours</h5>
-                        <p>Nos secouristes sont présents à l'entrée du parc</p>
-                        <router-link to="/Actualites" type="button" class="btn btn-secondary btn-sm">En savoir plus</router-link>
+                        <h5>{{ $t('alerte.titreSlide4') }}</h5>
+                        <p>{{ $t('alerte.texteSlide4') }}</p>
+                        <router-link to="/Actualites" type="button" class="btn btn-secondary btn-sm">{{ $t('alerte.button') }}</router-link>
                     </div>
                 </div>
                 <div class="slide slide_5">
                     <div class="slide-content">
-                        <h5>Alerte Covid19</h5>
-                        <p>0 cas détecté depuis le début du Festival</p>
-                        <router-link to="/Actualites" type="button" class="btn btn-secondary btn-sm">En savoir plus</router-link>
+                        <h5>{{ $t('alerte.titreSlide5') }}</h5>
+                        <p>{{ $t('alerte.texteSlide5') }}</p>
+                        <router-link to="/Actualites" type="button" class="btn btn-secondary btn-sm">{{ $t('alerte.button') }}</router-link>
                     </div>
                 </div>
             </div>

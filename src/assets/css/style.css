@@ -3,11 +3,11 @@
 /* css général */
 
 body    {
-	background-color: black; /* Le fond de la page sera noir */
-	color: white; /* Le texte de la page sera blanc */
+    	background-color: black; /* Le fond de la page sera noir */
+        color: white; /* Le texte de la page sera blanc */
 }
 table {
-align-content: center;
+	align-content: center;
 } 
 
 /* css actu.vue */
@@ -237,6 +237,3 @@ align-content: center;
 /* css Programme.vue */
 
 /* css ConcertActuel.vue */
-
-/* css ConcertProchain.vue */
-

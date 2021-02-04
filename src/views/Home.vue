@@ -5,7 +5,6 @@
     <Alertes></Alertes>
     <ConcertActuel></ConcertActuel>
     <ConcertProchain></ConcertProchain>
-    <router-link to="/nospartenaires" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Toutes nos actus</router-link>
     <Actu></Actu>
     <Presentation></Presentation>
 </div>

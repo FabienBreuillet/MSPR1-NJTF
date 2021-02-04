@@ -1,5 +1,5 @@
 <template>
-  <h2> Nation Sounds le concert caritatif </h2>
+  <h2> {{ $t('presentation.titre') }} </h2>
 </template>
 
 <script>
