@@ -10,3 +10,5 @@
     </center>
 </div>
 </template>
+
+<script>

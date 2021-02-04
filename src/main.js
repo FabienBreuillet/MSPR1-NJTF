@@ -7,7 +7,7 @@ import i18n from './i18n/i18n.js'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '@/assets/css/style.css'
-import '@fortawesome/fontawesome-free/css/all.css'
+
 
 
 

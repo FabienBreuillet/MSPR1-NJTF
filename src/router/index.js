@@ -7,6 +7,7 @@ import Programme from '../views/Programme.vue'
 import Carte from '../views/Carte.vue'
 import FAQ from '../views/FAQ.vue'
 import Actualites from '../views/Actualites.vue'
+import Mentions from '../views/Mentions.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/mentions',
+    name: 'Mentions',
+    component: Mentions
   },
   {
     path: '/contact',
@@ -27,7 +33,7 @@ const routes = [
     component: Nospartenaires
   },
   {
-    path: '/Programme',
+    path: '/programme',
     name: 'Programme',
     component: Programme
   },
@@ -42,7 +48,7 @@ const routes = [
     component: FAQ
   },
   {
-    path: '/',
+    path: '/actualites',
     name: 'Actualites',
     component: Actualites
   }
