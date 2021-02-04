@@ -2,14 +2,14 @@
 
 /* css général */
 
-body
-    {
+body    {
     	background-color: black; /* Le fond de la page sera noir */
         color: white; /* Le texte de la page sera blanc */
-    }
+}
 table {
 	align-content: center;
-}
+} 
+
 /* css actu.vue */
 
 /* css alertes.vue */
@@ -153,8 +153,87 @@ table {
 
 /* css FAQ.vue */
 
+.show-text, .hide-text {
+	font-size: 0.75rem;
+	padding-right: 0.25rem;
+  }
+  
+  summary {
+	background-color: #999;
+	height: 2rem;
+	display: flex; 
+	align-items: center;
+	cursor: pointer;
+	padding-left: 0.5rem;
+	color: white
+  }
+  
+  details .content {
+	display: block !important;
+	border-top-width: 0;
+	border: 1px solid #999;
+	padding-left: .5rem;
+	font-size: 1rem;
+  }
+ .collapse-block {
+	/*display: none;*/
+	border: 1px solid #ccc;
+	padding-left: 1rem;
+  
+	transform: scaleY(0);
+	transition: all 0.2s;
+	transform-origin: 0 0;
+	opacity: 0;
+  
+	font-size: 0;
+	/*line-height: 0;*/
+  }
+  
+  .collapse-state:checked + .collapse-button + .collapse-block {
+	/*display: block;*/
+	transform: scaleY(1);
+	opacity: 1;
+  
+	/*line-height: 1.5;*/
+	font-size: 1rem;
+  }
+  
+  
+  .collapse-state {
+	display: none;
+  }
+  
+  .collapse-state + .collapse-button {
+	cursor: pointer;
+	display: block;
+	background-color: #999;
+	padding: 0.5rem;
+	color: white;
+  }
+  
+  .collapse-state:selected {
+	border: 1px solid red;
+  }
+  
+  
+  .collapse-state:not(:checked) + .collapse-button > .show-text {
+	display: inline;
+  }
+  .collapse-state:not(:checked) + .collapse-button > .hide-text {
+	display: none;
+  }
+  
+  .collapse-state:checked + .collapse-button > .show-text {
+	display: none;
+  }
+  .collapse-state:checked + .collapse-button > .hide-text {
+	display: inline;
+  }
+
 /* css Home.vue */
 
 /* css Nospartenaires.vue */
 
-/* css Programme.vue*/
+/* css Programme.vue */
+
+/* css ConcertActuel.vue */
